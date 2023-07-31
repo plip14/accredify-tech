@@ -1,7 +1,11 @@
+V.0.7
+
 Run composer update
+
 Run php artisan serve
-http://127.0.0.1:8000/post-data/
-You can use the file '[root]/test.oa' in the root to test upload
+
+go to http://127.0.0.1:8000/post-data/
+You can use the file 'test.oa' in root for upload test
 
 STATUS returned : 
 
@@ -35,10 +39,15 @@ Views :
 postform.blade.php : Form to submit data
 log.blade.php : Table `verify_logs` content
 
+DB : Sqlite
+
 Screenshot : 
-[root]/screenshot.jpg
+screenshot.jpg
 
 **Note
 * Sorry I only had Saturday and Sunday night to do this 
-* and I only managed to do the main code. 
-* Thank you.
+* and I only managed to do the main code.
+* TODO :
+* - Move save to table verify_logs to model -> store
+* - Better test coverage
+* - Better documentation
