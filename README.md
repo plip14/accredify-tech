@@ -45,8 +45,6 @@ Screenshot :
 screenshot.jpg
 
 **Note
-* Sorry I only had Saturday and Sunday night to do this 
-* and I only managed to do the main code.
 * TODO :
 * - Move save to table verify_logs to model -> store
 * - Better test coverage
